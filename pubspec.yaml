@@ -1,0 +1,42 @@
+name: oneid
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.7.0
+  image_picker: ^1.1.0
+  image: ^4.1.4
+  qr_flutter: ^4.1.0
+  shimmer: ^3.0.0
+
+  # ✅ ML Kit compatible versions
+  google_mlkit_text_recognition:
+    path: local_packages/google_mlkit_text_recognition
+  google_mlkit_commons:
+    path: local_packages/google_mlkit_commons
+  google_mlkit_barcode_scanning:
+    path: local_packages/google_mlkit_barcode_scanning
+
+  uuid: ^4.0.0
+
+dependency_overrides:
+  google_mlkit_commons:
+    path: local_packages/google_mlkit_commons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

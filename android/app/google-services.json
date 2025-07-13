@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "762151048911",
+    "project_id": "oneid-pro-f79cb",
+    "storage_bucket": "oneid-pro-f79cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762151048911:android:cd43098f594c312d74c9ba",
+        "android_client_info": {
+          "package_name": "com.company.oneidpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqCy9kZ91663d6RhctHRHrgOla3aBKu1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
